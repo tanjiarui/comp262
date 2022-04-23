@@ -1,0 +1,35 @@
+{"intents": [
+	{"tag": "greeting",
+		"patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "How are you?"],
+		"responses": ["Hello", "Hi", "Hi there","Hello how are you?"]
+	},
+	{"tag": "acknowledgement",
+		"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+		"responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+	},
+	{"tag": "complaint",
+		"patterns": ["I have a complaint about the food", "I'd like to make a complaint about the noise", "The service is unpleasant", "I don't like the way how the system handles my order"],
+		"responses": ["I'm sorry to hear that. What exactly was the problem?", "We understand your concern. We are reviewing your order", "Sorry for the inconvenience. Could you please tell us more about that?", "Please give us a moment to sort out the clue"]
+	},
+	{"tag": "time",
+		"patterns": ["It's morning of yesterday", "It happened on the week I bought it", "One month later after the deal", "During my vacation"],
+		"responses": ["Where did that happen in?", "Could you tell me the place where it was down?", "Which branch source did you visit?"]
+	},
+	{"tag": "location",
+		"patterns": ["At home", "It was broken when I walked in the street", "On the metro", "It happened in hotel"],
+		"responses": ["Could you explain more about the usage?", "How did that malfunction?", "What's the appearance after the outage?"]
+	},
+	{"tag": "detail",
+		"patterns": ["The fruit was rotten when I received my delivery", "I still didn't receive my order. One week had gone", "The labtop was very slow to respond instructions", "My room was not cleaned when I return to the hotel"],
+		"responses": ["How can we reach out you?", "What's your cantact?", "Please leave your email or phone number here"]
+	},
+	{"tag": "contact",
+		"patterns": ["My email is ...", "This is my number ...", "You can reach me by phone", "Here is my contact info"],
+		"responses": ["I'll file the issue and forward to my superior", "Ticket has been created", "Event has been documented. Is there anything I can do for you?"]
+	},
+	{"tag": "close",
+		"patterns": ["No, that's all", "No, I will wait for your response", "I don't have further problem", "That's all I ask. Thanks for your assistance"],
+		"responses": ["Please give me a thumb up if you don't mind. Wish you a good trip", "Thanks for your understanding. Please let me know if there is further issue", "I appreciate your concern. There'll be an agent talk to you later"]
+	}
+]
+}
